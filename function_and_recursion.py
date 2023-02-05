@@ -1,21 +1,21 @@
 # #inserting a default parameter value  in function
-# def greet(name = "strangerr"): 
-#     print("Good day ahead: ",name)
+def greet(name = "strangerr"): 
+    print("Good day ahead: ",name)
     
-# greet("pD")
+greet("pD")
 
 """
 Recursion: is function which call itself
 
 """
 #finding factorial using iterative method
-# def facto_iter(n):
-#     product =1
-#     for i in range(n):
-#         product=product*(i+1)
-#     print (product)
+def facto_iter(n):
+    product =1
+    for i in range(n):
+        product=product*(i+1)
+    print (product)
 
-# print(facto_iter(5))
+print(facto_iter(5))
 
 #create a program to find factorial of number using ecursion
 
